@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Temporary Styles */
+
+* {
+    padding: 0.5%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    border: 1px solid #414833;
+}
+
+.bg-image {
+    background-color: #B6AD90;
+}
+
+/* Utility Classes */
+
+.right {text-align: right;}
+.left {text-align: left;}
+.center {text-align: center;}
+
+.tall-30 {height: 30vh;}
+.tall-40 {height: 40vh;}
+.tall-50 {height: 50vh;}
+.tall-60 {height: 60vh;}
+.tall-70 {height: 70vh;}
+.tall-80 {height: 80vh;}
+.tall-90 {height: 90vh;}
+.tall-100 {height: 100vh;}
+
+.padding-0 [padding: 0;]
