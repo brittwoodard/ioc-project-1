@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+[class*="col-"] {padding: 0;}
+
 
 /* Temporary Styles */
 
@@ -13,6 +15,10 @@
 
 h1, h2, h3, h4, h5, h6, p {
     border: 1px solid #414833;
+}
+
+div {
+    border: 1px solid #a8b68d;
 }
 
 .bg-image {
@@ -36,4 +42,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .padded {padding: 5%;}
 .padded-0 {padding: 0;}
+.padded-2 {padding: 2%}
 .padded-10 {padding: 10%}
+
+.padded-l-2 {padding-right: 2rem;}
