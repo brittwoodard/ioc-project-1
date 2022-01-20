@@ -26,6 +26,10 @@ font-family: 'Sacramento', cursive;
 
 
 /* Universal Styles */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Alice', serif;
     color: #1f211e
