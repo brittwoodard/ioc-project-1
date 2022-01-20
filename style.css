@@ -80,6 +80,52 @@ nav a:hover {
     transition: 0.5s;
 }
 
+form input,
+form textarea {
+  width: 100%; 
+  margin: 0.5rem 0; 
+  padding: 0.5rem; 
+  border: 1px solid #f0f0f0; 
+  outline: none; 
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input:focus, 
+form textarea:focus { 
+  border-color: #afae70; 
+}
+
+textarea { 
+  min-height: 8rem;
+} 
+
+form label {
+  margin-top: 1.5rem; 
+  display: block; 
+  color: inherit; 
+  font-weight: bold;
+}
+
+form button {
+  background-color: #afae70; 
+  color: white; 
+  font-family: 'Sacramento', cursive;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  letter-spacing: .15rem;
+  border: 1px solid; 
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0; 
+}
+
+form button:hover {
+    background-color: #f9f5f4;
+    color: #afae70;
+    border: 1px solid #afae70;
+    transition: 0.5s;
+}
+
 /* Utility Classes */
 
 .right {text-align: right;}
