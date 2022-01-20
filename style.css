@@ -240,3 +240,11 @@ form button:hover {
     background-repeat: no-repeat;
     opacity: 0.6;
 }
+
+@media (max-width: 36em) {
+    .mob-margin-top-2 {margin-top: 2rem;}
+    .mob-margin-bottom-2 {margin-bottom: 2rem;}
+    .mob-right {text-align: right;}
+    .mob-center {text-align: center;}
+    .mob-icons {margin: 1.5rem;}
+}
