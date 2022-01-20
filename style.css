@@ -4,25 +4,75 @@
     box-sizing: border-box;
 }
 
-[class*="col-"] {padding: 0;}
+[class*="col-"] {
+    padding: 0;
+}
 
 
 /* Temporary Styles */
 
-* {
-    padding: 0.5%;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    border: 1px solid #414833;
-}
-
-div {
-    border: 1px solid #a8b68d;
-}
-
 .bg-image {
-    background-color: #B6AD90;
+    background-color: #c5c584;
+}
+
+/* Fonts & Colors
+Headers: #798b7d
+CTA: #afae70
+Paragraph: #1f211e
+Background: #f9f5f4
+font-family: 'Alice', serif;
+font-family: 'Sacramento', cursive;
+*/
+
+
+/* Universal Styles */
+body {
+    font-family: 'Alice', serif;
+    color: #1f211e
+}
+
+p {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sacramento', cursive;
+    color: #798b7d;
+    font-size: 4rem;
+    text-transform: lowercase;
+    line-height: 1;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child {
+    margin-bottom: 0;
+  }
+
+a {
+    color: #afae70;
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+nav a:hover {
+    color: #afae70;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    transition: 0.5s;
 }
 
 /* Utility Classes */
@@ -42,7 +92,94 @@ div {
 
 .padded {padding: 5%;}
 .padded-0 {padding: 0;}
-.padded-2 {padding: 2%}
+.padded-1 {padding: 1%}
 .padded-10 {padding: 10%}
 
-.padded-l-2 {padding-right: 2rem;}
+.padded-lr-5 {padding: 0 5%;}
+
+.margin-bottom-3 {margin-bottom: 3rem;}
+
+.bg-dark {background-color: #798b7d}
+.bg-light {background-color: #f9f5f4}
+
+.light-text {color: white;}
+.cta-text {color: #afae70}
+.header-text {
+    color: #798b7d;
+    font-family: 'Sacramento', cursive;
+}
+
+.text-2 {font-size: 2rem;}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.heading {
+    color: white;
+    font-size: 4rem;
+    text-transform: lowercase;
+    font-family: 'Alice', serif;
+}
+
+.feature {
+    font-family: 'Sacramento', cursive;
+}
+
+.work-with-me-text {
+    font-size: 2.2rem;
+}
+
+.price {
+    font-size: 3rem;
+}
+
+.box {
+    border: 1px solid white;
+    padding: 3%;
+}
+
+.bg-herbs {
+    background-image: url(/images/ioc-project-1-herbs.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-leaves {
+    background-image: url(/images/ioc-project-1-leaves.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-mix {
+    background-image: url(/images/ioc-project-1-mix.jpg);
+    background-size: cover;
+    background-position: 50% 57%;
+    background-repeat: no-repeat;
+}
+
+.bg-shadow {
+    background-image: url(/images/ioc-project-1-shadow.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-woman {
+    background-image: url(/images/ioc-project-1-woman.jpg);
+    background-size: cover;
+    background-position: 50% 38%;
+    background-repeat: no-repeat;
+    border-radius: 50% 50% 0 0;
+}
+
+.bg-field {
+    background-image: url(/images/ioc-project-1-field.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
