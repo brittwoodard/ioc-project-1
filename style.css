@@ -58,7 +58,7 @@ a {
 }
 
 a:hover {
-    color: inherit;
+    color: #798b7d;
     transition: 0.5s;
 }
 
@@ -74,8 +74,9 @@ nav a {
 nav a:hover {
     color: #afae70;
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 5px;
+    border-radius: 2px;
     transition: 0.5s;
+    padding-bottom: 0.2rem;
 }
 
 form input,
