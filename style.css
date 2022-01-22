@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
 }
 
+h1 {
+    line-height: 0rem;
+}
+
 p:last-child {
     margin-bottom: 0;
   }
@@ -193,6 +197,9 @@ form button:hover {
 
 .border-light {border: 1px solid white;}
 
+.relative {position: relative;}
+
+
 .fab {
     font-size: 2rem;
     margin-right: 1.5rem;
@@ -240,6 +247,14 @@ form button:hover {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     opacity: 0.6;
+}
+
+/* Header Styles */
+.header-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: .5rem;
 }
 
 @media (max-width: 48em) {
